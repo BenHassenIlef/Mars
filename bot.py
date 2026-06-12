@@ -11,6 +11,9 @@ from streamlit_mic_recorder import mic_recorder
 from io import BytesIO
 import speech_recognition as sr
 from pydub import AudioSegment
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Configure Streamlit page settings
 st.set_page_config(
